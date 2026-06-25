@@ -17,8 +17,8 @@ export default async function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-parchment/95 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
-        <Link href="/" className="font-display text-xl font-extrabold text-ink">
-          Cloud<span className="text-gold">.</span>
+        <Link href="/" className="font-display text-base font-extrabold text-ink sm:text-lg">
+          SOUMIA <span className="text-gold">BRANDING</span>
         </Link>
 
         <ul className="hidden items-center gap-6 md:flex">
@@ -69,23 +69,4 @@ export default async function Navbar() {
           <span className="h-0.5 w-6 bg-ink" />
         </label>
 
-        <div className="absolute inset-x-0 top-full hidden flex-col gap-4 border-b border-ink/10 bg-parchment p-5 peer-checked:flex md:hidden">
-          {links.map((l) => (
-            <Link key={l.href} href={l.href} className="text-sm font-medium text-slate">
-              {l.label}
-            </Link>
-          ))}
-          <hr className="border-ink/10" />
-          {user ? (
-            <Link href="/dashboard" className="text-sm font-bold text-teal">لوحتي</Link>
-          ) : (
-            <>
-              <Link href="/login" className="text-sm font-medium text-slate">تسجيل الدخول</Link>
-              <Link href="/register" className="text-sm font-bold text-gold-dark">إنشاء حساب</Link>
-            </>
-          )}
-        </div>
-      </nav>
-    </header>
-  );
-}
+        <div className="absolut
