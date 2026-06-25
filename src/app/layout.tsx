@@ -17,7 +17,7 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
-  title: "Cloud — منصتك الرقمية المتكاملة",
+  title: "SOUMIA BRANDING — منصتك الرقمية المتكاملة",
   description:
     "خدمات ودورات ومنتجات رقمية ومحتوى تعليمي عربي في مكان واحد.",
 };
