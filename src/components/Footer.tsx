@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className="mt-20 border-t border-ink/10 bg-ink text-parchment">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-4 md:px-6">
         <div>
-          <p className="font-display text-xl font-extrabold">
-            Cloud<span className="text-gold">.</span>
+          <p className="font-display text-lg font-extrabold">
+            SOUMIA <span className="text-gold">BRANDING</span>
           </p>
           <p className="mt-3 text-sm text-parchment/70">
             منصتك الرقمية المتكاملة للخدمات، الدورات، والمنتجات الرقمية.
@@ -39,8 +39,3 @@ export default function Footer() {
         </div>
       </div>
       <p className="border-t border-parchment/10 py-5 text-center text-xs text-parchment/50">
-        © {new Date().getFullYear()} Cloud. جميع الحقوق محفوظة.
-      </p>
-    </footer>
-  );
-}
