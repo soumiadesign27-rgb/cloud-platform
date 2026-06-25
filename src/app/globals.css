@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  background-color: #FAF7F0;
-  color: #0F172A;
+  background-color: #FFFFFF;
+  color: #3B1F5C;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid #C9942C;
+  outline: 2px solid #D4AF37;
   outline-offset: 2px;
 }
 
