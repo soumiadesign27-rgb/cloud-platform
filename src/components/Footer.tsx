@@ -39,3 +39,8 @@ export default function Footer() {
         </div>
       </div>
       <p className="border-t border-parchment/10 py-5 text-center text-xs text-parchment/50">
+        © {new Date().getFullYear()} SOUMIA BRANDING. جميع الحقوق محفوظة.
+      </p>
+    </footer>
+  );
+}
