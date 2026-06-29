@@ -69,4 +69,23 @@ export default async function Navbar() {
           <span className="h-0.5 w-6 bg-ink" />
         </label>
 
-        <div className="absolut
+        <div className="absolute inset-x-0 top-full hidden flex-col gap-4 border-b border-ink/10 bg-parchment p-5 peer-checked:flex md:hidden">
+          {links.map((l) => (
+            <Link key={l.href} href={l.href} className="text-sm font-medium text-slate">
+              {l.label}
+            </Link>
+          ))}
+          <hr className="border-ink/10" />
+          {user ? (
+            <Link href="/dashboard" className="text-sm font-bold text-teal">لوحتي</Link>
+          ) : (
+            <>
+              <Link href="/login" className="text-sm font-medium text-slate">تسجيل الدخول</Link>
+              <Link href="/register" className="text-sm font-bold text-gold-dark">إنشاء حساب</Link>
+            </>
+          )}
+        </div>
+      </nav>
+    </header>
+  );
+}
